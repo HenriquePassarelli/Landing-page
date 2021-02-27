@@ -1,0 +1,133 @@
+:root
+{
+    --text-font : rgb(175, 169, 169);
+}
+
+
+*
+{
+    font-family: Poppins, sans-serif;
+    background: rgb(27, 26, 26);
+}
+
+/* Header=== */
+header
+{
+    color:var(--text-font);
+    text-align: center;
+    
+}
+
+/* Form==== */
+
+
+
+form
+{
+    background: black;
+    float: left;
+
+    text-align: left;
+
+    margin-top: 2em;
+    margin-left: 300px;
+
+    border-radius: 0.7em ;
+    
+}
+
+fieldset
+{
+    background-color: black;
+    border-radius: 0.7em;
+    border:none;
+
+    box-shadow: 5px 10px #313131;
+    
+}
+
+form h1
+{
+    background-color: black;
+    color:var(--text-font);
+    text-align: center;
+}
+
+form #icon img
+{
+    width: 25%;
+    background-color: black;
+}
+
+form #icon a
+{
+    display: inline-block;
+    text-align: center;
+    background: black;
+}
+
+form #icon a:first-child
+{
+    margin-left: .3rem;
+    margin-right:-3rem;
+}
+
+form div , form div label , form div input
+{
+    background-color: black;
+    color: var(--text-font);
+
+    padding-left: 0.5em;
+}
+
+form input 
+{
+    border-radius: 0.7em ;
+    padding: .5em;
+    border-color: var(--text-font);
+}
+
+form input ::placeholder
+{
+    color: var(--text-font);
+}
+
+
+button
+{
+    text-align:center;
+
+    color: var(--text-font);
+    border-radius: .7em;
+
+    padding: .5em .8em;
+    margin-bottom: 0.5em; 
+    margin-left: 40%;
+}
+
+
+
+
+
+
+/* Book=== */
+
+#book
+{
+    float: right;
+    margin-top: 10rem;
+}
+
+#book img
+{
+    width: 40%;
+}
+
+#book h3
+{
+    color: var(--text-font);
+    margin-left: 2rem;
+}
+
+
+

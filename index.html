@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500&display=swap" rel="stylesheet">
+
+    <title>Library RW</title>
+</head>
+
+<body>
+    <header><h1>Library RW</h1></header>
+
+    <main>
+        <section>
+            <form action="">
+                <fieldset>
+                    <h1>sign up </h1>
+                    <div id="icon">
+                        <a href="#Google"><img src="./assets/281764.svg" alt="google" ></a>
+                        <a href="#Facebook"><img src="./assets/facebook.svg" alt="facebook" ></a>
+                    </div>
+    
+                    <hr>
+    
+                    <div id="Name">
+                        <label for="fname">Full Name </label> <br>
+                        <input type="text" id="fname" name="fullname" placeholder="your full name" required>
+                        
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">Email</label> <br>
+                        <input type="text" id="Email" name="email" required placeholder="something@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    </div>
+        
+                    <div id="Date">
+                        <label for="date">Date</label><br>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+        
+                    <div id="number">
+                        <label for="phone">Contact number</label><br required>
+                        <input type="tel" name="phone" id="phone" placeholder="(11)9923787678">
+                    </div>
+                    <br>
+                    <div id="Notification">
+                        <input type="checkbox" name="notification" id="notification">
+                        <label for="notification">Allow notifications</label><br> <br>
+                    </div>
+    
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
+        </section>
+        
+        <section>
+            <div id="book">
+                <img src="./assets/book.svg" alt="book">
+                <h3>Best seller</h3>
+            </div>
+            
+        </section>
+        
+    </main>
+    
+
+
+</body>
+
+</html>
